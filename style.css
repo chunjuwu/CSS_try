@@ -1,0 +1,96 @@
+body {
+  /* top right bottom left */
+  margin: 100px 40px 10px 70px;
+  /*[background-color] | [background-image] | [background-repeat] | [background-attachment] | [background-position] */
+  background: #FFCC66 url("butterfly.gif") no-repeat fixed 50% 50%;
+}
+
+h1{
+  color: #990000;
+  background-color: #FC9804;
+  font-variant: small-caps;
+  text-decoration: underline;
+  text-transform: uppercase;
+  padding: 20px 20px 20px 80px;
+  /*width style color*/
+  border-top-width: thick;
+  border-style: dotted;
+  border-color:gold;
+}
+
+#h2{
+  color:red;
+}
+
+#democrats{
+  background:blue
+}
+#republicans{
+  background:red;
+}
+
+p{
+  margin: 5px 50px 5px 50px;
+  /*font-style | font-variant | font-weight | font-size | font-family*/
+  font:italic bold 120% arial, verdana, sans-serif;
+  text-indent: 30px;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+
+a:link{
+  color: #6699CC;
+}
+a:visited{
+  color:#660099;
+}
+a:active{
+  background-color: #FFFF00;
+}
+a:hover{
+  color: orange;
+  font-style: italic;
+}
+
+a.whitewine{
+  color: #FFBB00;
+}
+a.redwine{
+  color: #800000;
+}
+
+span.benefit{
+  color:red;
+}
+
+div.box{
+  height: 100px;
+  width: 200px;
+  border: 1px solid black;
+  background:orange;
+}
+
+#picture{
+  float: left;
+  width: 100px;
+  height:100px;
+  z-index: 1;
+}
+
+#column1{
+  float:left;
+  width: 200px;
+  height:100px;
+  border: 1px dotted black;
+}
+
+#column2{
+  float:left;
+  width: 200px;
+  height:100px;
+  border: 1px dotted black;  
+}
+
+.floatstop{
+  clear:both;
+}
